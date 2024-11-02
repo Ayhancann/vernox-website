@@ -1,1 +1,1 @@
-# vernox-website
+# Vernox Client's temporary website
