@@ -5,3 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BotHostTest</title>
 </head>
+<script>
+  // Discord botunu başlatan bir isteği gönder
+  fetch('https://ayhancann.github.io/vernox-website/start-bot', { method: 'GET' })
+    .then(response => {
+      if (response.ok) {
+        console.log("Bot başarıyla çalıştırıldı.");
+      } else {
+        console.error("Bot başlatılamadı.");
+      }
+    })
+    .catch(error => console.error("Sunucuya bağlanılamadı:", error));
+</script>
